@@ -1,14 +1,16 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+	"Invoice": {
+		"InvoiceNumber": "INV-1001",
+		"InvoiceDate": "2026-01-06",
+		"Customer": {
+			"CustomerId": "CUST-001",
+			"CustomerName": "ABC Corporation",
+			"Country": "IN"
+		},
+		"Amount": {
+			"_currency": "INR",
+			"__text": "12500.00"
+		},
+		"Status": "NEW"
+	}
 }
